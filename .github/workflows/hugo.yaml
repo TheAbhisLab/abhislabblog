@@ -36,7 +36,7 @@ jobs:
       - name: Build with Hugo (Production Overrides)
         run: |
           hugo --gc --minify \
-            --baseURL "https://theabhislab.github.io/abhislabblog/" \
+            --baseURL "https://abhislab.in/" \
             --templateMetrics
 
       - name: Upload artifact
