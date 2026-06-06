@@ -1,19 +1,12 @@
-baseURL = 'https://theabhislab.github.io/abhislabblog/'
+baseURL = '/'
+languageCode = 'en-us'
 title = 'Abhis Lab Blog'
 theme = 'hugo-PaperMod'
 
-# Modern 2026 Hugo configuration block
-defaultContentLanguage = 'en'
-
-[languages.en]
-    locale = 'en-us'
-    languageName = 'English'
-    weight = 1
-
 [params]
+    # This prevents PaperMod from crashing when building the SEO schemas
     author = "Abhi"
+    
+    # Optional but highly recommended for PaperMod
     defaultTheme = "auto" 
     showtoc = true
-    
-    # Forcefully bypass the automated schema footer to avoid compilation crashes
-    schema = false
