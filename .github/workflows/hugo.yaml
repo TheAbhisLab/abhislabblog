@@ -33,8 +33,11 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build with Hugo
-        run: hugo --gc --minify
+      - name: Build with Hugo (Production Overrides)
+        run: |
+          hugo --gc --minify \
+            --baseURL "https://theabhislab.github.io/abhislabblog/" \
+            --templateMetrics
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
