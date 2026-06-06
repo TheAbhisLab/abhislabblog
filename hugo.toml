@@ -1,4 +1,12 @@
 baseURL = '/'
-locale = 'en-us'
+languageCode = 'en-us'
 title = 'Abhis Lab Blog'
 theme = 'hugo-PaperMod'
+
+[params]
+    # This prevents PaperMod from crashing when building the SEO schemas
+    author = "Abhi"
+    
+    # Optional but highly recommended for PaperMod
+    defaultTheme = "auto" 
+    showtoc = true
