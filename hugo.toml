@@ -1,0 +1,4 @@
+baseURL = '/'
+locale = 'en-us'
+title = 'Abhis Lab Blog'
+theme = 'hugo-PaperMod'
