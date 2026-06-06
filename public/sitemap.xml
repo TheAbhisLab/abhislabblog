@@ -3,20 +3,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>http://localhost:1313/abhislabblog/</loc>
     <lastmod>2026-06-06T12:58:43+05:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/abhislabblog/posts/</loc>
     <lastmod>2026-06-06T12:58:43+05:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/secondblog/</loc>
+    <loc>http://localhost:1313/abhislabblog/posts/secondblog/</loc>
     <lastmod>2026-06-06T12:58:43+05:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/firstblog/</loc>
+    <loc>http://localhost:1313/abhislabblog/posts/firstblog/</loc>
     <lastmod>2026-06-06T12:57:27+05:30</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/abhislabblog/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/abhislabblog/tags/</loc>
   </url>
 </urlset>
